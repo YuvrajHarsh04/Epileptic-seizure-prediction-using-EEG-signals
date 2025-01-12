@@ -1,8 +1,8 @@
-Epileptic Seizure Prediction Using EEG Signals
+# Epileptic Seizure Prediction Using EEG Signals
 
 This project aims to predict epileptic seizures by analyzing Electroencephalography (EEG) signals. By leveraging advanced signal processing techniques and machine learning models, this system identifies patterns in EEG data associated with seizure events, enabling early detection and intervention.
 
-Table of Contents
+# Table of Contents
 
 Overview
 
@@ -14,13 +14,10 @@ Setup and Installation
 
 Usage
 
-Results
-
 Acknowledgments
 
-License
 
-Overview
+# Overview
 
 Epilepsy affects millions of individuals worldwide, with seizures occurring unpredictably. This project demonstrates a pipeline for EEG signal analysis and seizure prediction, aiming to:
 
@@ -32,15 +29,15 @@ Train machine learning models to predict seizure events accurately.
 
 Provide visual insights into EEG patterns and model performance.
 
-Dataset
+# Dataset
 
 Source
 
 The dataset used for this project is sourced from [insert source, e.g., UCI Machine Learning Repository, Kaggle, PhysioNet].
 
-Format: .csv or .edf (specify the file type used).
+Format: .csv or .fif (specify the file type used).
 
-Description
+# Description
 
 EEG signals collected from patients diagnosed with epilepsy.
 
@@ -50,7 +47,7 @@ Note
 
 If the dataset is not included, follow the instructions in the Usage section to download it.
 
-Features
+# Features
 
 Preprocessing
 
@@ -68,7 +65,7 @@ Frequency-Domain Features: Power spectral density (PSD), spectral entropy.
 
 Time-Frequency Analysis: Short-Time Fourier Transform (STFT), wavelet transforms.
 
-Machine Learning Models
+# Machine Learning Models
 
 Support Vector Machines (SVM)
 
@@ -76,7 +73,7 @@ Random Forest Classifier
 
 Neural Networks (e.g., LSTMs for sequential data)
 
-Visualization
+# Visualization
 
 Raw and filtered EEG signal plots.
 
@@ -86,12 +83,12 @@ Model performance metrics (accuracy, precision, recall, F1-score).
 
 Setup and Installation
 
-Clone the Repository
+# Clone the Repository
 
-git clone https://github.com/username/eeg-seizure-prediction.git
-cd eeg-seizure-prediction
+git clone [https://github.com/username/eeg-seizure-prediction.git
+cd eeg-seizure-prediction](https://github.com/YuvrajHarsh04/Epileptic-seizure-prediction-using-EEG-signals/tree/main)
 
-Install Dependencies
+# Install Dependencies
 
 Using pip:
 
@@ -113,13 +110,3 @@ Update the file paths in the notebook or scripts as needed.
 Run the Notebook:
 
 Open the notebook.ipynb file in Jupyter or Colab.
-
-
-
-Execute Steps:
-
-Preprocess EEG signals.
-
-Extract features and train models.
-
-Visualize results and evaluate model performance.
